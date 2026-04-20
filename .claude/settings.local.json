@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:patricksebastine.github.io)",
+      "Read(//c/Users/patri/.claude/projects/**)",
+      "Read(//c/Users/patri/.claude/**)",
+      "WebSearch",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s \"http://localhost:5174/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:5174/src/main.jsx\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:5174/src/App.jsx\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:5174/src/components/Hero.jsx\")",
+      "Bash(curl -s \"http://localhost:5174/src/styles/globals.css\")",
+      "Bash(curl -s \"http://localhost:5174/src/styles/globals.css\" -o \"C:/Users/patri/AppData/Local/Temp/css.txt\")",
+      "Read(//c/Users/patri/AppData/Local/Temp/**)",
+      "Bash(curl -sS \"http://localhost:5174/src/styles/globals.css\" -o \"C:/Users/patri/AppData/Local/Temp/css2.txt\")",
+      "Bash(node -e \"console.log\\(require\\('C:/Users/patri/patrick-sebastine/node_modules/lucide-react/package.json'\\).version\\)\")",
+      "Bash(curl -s \"http://localhost:5173/src/components/Hero.jsx\" -o /dev/null -w \"Hero: %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:5173/src/components/Projects.jsx\" -o /dev/null -w \"Projects: %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:5173/src/components/Skills.jsx\" -o /dev/null -w \"Skills: %{http_code}\\\\n\")",
+      "Bash(curl -s \"http://localhost:5173/src/App.jsx\" -o /dev/null -w \"App: %{http_code}\\\\n\")",
+      "Bash(curl -sS \"http://localhost:5173/src/styles/globals.css\" -o \"C:/Users/patri/AppData/Local/Temp/css3.txt\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(powershell -Command \"Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(curl -s -o /dev/null -w \"root:%{http_code}\\\\n\" \"http://localhost:5173/\")",
+      "Bash(curl -s -o /dev/null -w \"app:%{http_code}\\\\n\" \"http://localhost:5173/src/App.jsx\")",
+      "Bash(curl -s -o /dev/null -w \"dash:%{http_code}\\\\n\" \"http://localhost:5173/src/components/Dashboards.jsx\")",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(where gh *)",
+      "Bash(where git *)"
+    ]
+  }
+}

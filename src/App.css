@@ -1,0 +1,25 @@
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Stats from './components/Stats'
+import CTA from './components/CTA'
+import Footer from './components/Footer'
+import './styles/globals.css'
+import './styles/animations.css'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-cyber-black">
+      <Navigation />
+      <Hero />
+      <Skills />
+      <Projects />
+      <Stats />
+      <CTA />
+      <Footer />
+    </div>
+  )
+}
+
+export default App
