@@ -3,6 +3,7 @@ import { motion } from "framer-motion"
 import { ArrowUpRight } from "lucide-react"
 
 const SOCIALS = [
+  { label: "Free Lesson 1", href: "https://www.youtube.com/watch?v=aYyUrvp7qTo" },
   { label: "GitHub", href: "https://github.com/PatrickSebastine" },
   { label: "X", href: "https://x.com/iamreddsebasti" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/patrickugheokesebastine/" },
@@ -31,10 +32,10 @@ export default function Footer() {
             § 04 — Contact
           </p>
           <h2 className="display text-6xl sm:text-7xl lg:text-[104px] text-bone-0 leading-[0.95]">
-            Let's build something
+            Free lessons.
             <br />
             <span className="display-italic text-amber-accent">
-              worth your time.
+              Real risk rules.
             </span>
           </h2>
 
