@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 
 const LINKS = [
+  { href: "#free", label: "Free" },
   { href: "#hero", label: "Home" },
   { href: "#skills", label: "Disciplines" },
   { href: "#projects", label: "Work" },
@@ -34,7 +35,7 @@ export default function Navigation() {
         }`}
       >
         <a
-          href="#hero"
+          href="#free"
           className="pl-5 pr-2 py-2 flex items-center gap-2 group"
           aria-label="Patrick Sebastine"
         >
@@ -55,10 +56,12 @@ export default function Navigation() {
           ))}
         </div>
         <a
-          href="#contact"
+          href="https://www.youtube.com/watch?v=aYyUrvp7qTo"
+          target="_blank"
+          rel="noopener noreferrer"
           className="ml-1 mr-1 px-4 py-1.5 rounded-full bg-amber-accent text-ink-0 text-sm font-medium hover:bg-amber-soft transition"
         >
-          Let's talk
+          Lesson 1
         </a>
       </div>
     </motion.nav>
